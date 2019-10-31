@@ -334,7 +334,7 @@ export default class LeonSans extends Dispatcher {
     }
 
     /**
-     * Update paths for pattern
+     * Update paths for pattern, pass `true` to force execution.
      * @param {boolean} force - Force execution
      */
     updatePatternPaths(force) {
@@ -347,7 +347,7 @@ export default class LeonSans extends Dispatcher {
     }
 
     /**
-     * Update paths for wave effect
+     * Update paths for wave effect, pass `true` to force execution.
      * @param {boolean} force - Force execution
      */
     updateWavePaths(force) {
@@ -401,7 +401,7 @@ export default class LeonSans extends Dispatcher {
     }
 
     /**
-     * Draw text in WebGL with PIXI.js
+     * Draw text in WebGL with PIXI.js.
      * @param {PIXI.Graphics} graphics
      */
     drawPixi(graphics) {
